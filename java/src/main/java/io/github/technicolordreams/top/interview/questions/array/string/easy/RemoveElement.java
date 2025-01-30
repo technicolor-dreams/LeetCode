@@ -1,4 +1,4 @@
-package io.github.technicolordreams.top.interview.questions.array.string;
+package io.github.technicolordreams.top.interview.questions.array.string.easy;
 
 /**
  * <h1><a href="https://leetcode.com/problems/remove-element/description/">27. Remove Element</a></h1>

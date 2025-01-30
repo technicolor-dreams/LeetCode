@@ -1,4 +1,4 @@
-package io.github.technicolordreams.top.interview.questions.array.string;
+package io.github.technicolordreams.top.interview.questions.array.string.easy;
 
 /**
  * <h1><a href="https://leetcode.com/problems/merge-sorted-array/description/">88. Merge Sorted Array</a></h1>

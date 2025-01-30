@@ -1,4 +1,4 @@
-package io.github.technicolordreams.top.interview.questions.array.string;
+package io.github.technicolordreams.top.interview.questions.array.string.easy;
 
 import java.util.HashMap;
 import java.util.Map;
