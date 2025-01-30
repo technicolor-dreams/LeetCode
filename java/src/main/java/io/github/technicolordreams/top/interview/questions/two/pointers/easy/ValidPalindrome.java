@@ -1,4 +1,4 @@
-package io.github.technicolordreams.top.interview.questions.two.pointers;
+package io.github.technicolordreams.top.interview.questions.two.pointers.easy;
 
 import java.util.stream.Collectors;
 

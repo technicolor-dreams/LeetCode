@@ -1,4 +1,4 @@
-package io.github.technicolordreams.top.interview.questions.stack;
+package io.github.technicolordreams.top.interview.questions.stack.easy;
 
 import java.util.Map;
 import java.util.Stack;

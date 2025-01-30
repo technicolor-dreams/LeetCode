@@ -1,4 +1,6 @@
-package io.github.technicolordreams.top.interview.questions.binary.tree.general;
+package io.github.technicolordreams.top.interview.questions.binary.tree.general.easy;
+
+import io.github.technicolordreams.top.interview.questions.binary.tree.general.TreeNode;
 
 import java.util.Objects;
 import java.util.Stack;

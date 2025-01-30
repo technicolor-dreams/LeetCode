@@ -1,4 +1,4 @@
-package io.github.technicolordreams.top.interview.questions.hashmap;
+package io.github.technicolordreams.top.interview.questions.hashmap.easy;
 
 import java.util.HashMap;
 import java.util.HashSet;

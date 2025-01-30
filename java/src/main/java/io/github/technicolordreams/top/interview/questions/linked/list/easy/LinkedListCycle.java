@@ -1,4 +1,6 @@
-package io.github.technicolordreams.top.interview.questions.linked.list;
+package io.github.technicolordreams.top.interview.questions.linked.list.easy;
+
+import io.github.technicolordreams.top.interview.questions.linked.list.ListNode;
 
 import java.util.Objects;
 

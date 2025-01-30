@@ -1,4 +1,4 @@
-package io.github.technicolordreams.top.interview.questions.two.pointers;
+package io.github.technicolordreams.top.interview.questions.two.pointers.easy;
 
 /**
  * <h1><a href="https://leetcode.com/problems/is-subsequence/description/">392. Is Subsequence</a></h1>

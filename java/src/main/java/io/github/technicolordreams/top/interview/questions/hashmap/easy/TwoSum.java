@@ -1,7 +1,6 @@
-package io.github.technicolordreams.top.interview.questions.hashmap;
+package io.github.technicolordreams.top.interview.questions.hashmap.easy;
 
 import java.util.*;
-import java.util.function.Function;
 
 /**
  * <h1><a href="https://leetcode.com/problems/two-sum/description/">1. Two Sum</a></h1>
