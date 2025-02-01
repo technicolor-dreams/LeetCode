@@ -1,4 +1,4 @@
-package io.github.technicolordreams.question.of.the.day;
+package io.github.technicolordreams.question.of.the.day.medium;
 
 import java.util.*;
 

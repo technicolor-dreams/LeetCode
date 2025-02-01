@@ -1,6 +1,5 @@
-package io.github.technicolordreams.question.of.the.day;
+package io.github.technicolordreams.question.of.the.day.medium;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
