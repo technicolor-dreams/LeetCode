@@ -1,4 +1,4 @@
-package io.github.technicolordreams.top.interview.questions.binary.tree.general;
+package io.github.technicolordreams.top.interview.questions.binary.tree;
 
 public class TreeNode {
 
