@@ -15,20 +15,15 @@ public class CountNumberOfBadPairs {
     }
 
     public long solution(int[] nums) {
-        Map<Integer, Set<Integer>> mem = new HashMap<>();
+        Map<Integer, Integer> mem = new HashMap<>();
         for (int i = 0; i < nums.length; i += 1) {
-            mem.putIfAbsent(i - nums[i], new TreeSet<>());
-            int finalI = i;
-            mem.computeIfPresent(i - nums[i], (k, v) -> {
-                v.add(finalI);
-                return v;
-            });
+            mem.putIfAbsent(i - nums[i], 0);
+            mem.computeIfPresent(i - nums[i], (k, v) -> v + 1);
         }
 
         long invalidCount =
                 mem.values().stream()
-                        .filter(s -> s.size() > 1)
-                        .map(s -> combinations(s.size()))
+                        .map(CountNumberOfBadPairs::combinations)
                         .mapToLong(Long::longValue)
                         .sum();
 
