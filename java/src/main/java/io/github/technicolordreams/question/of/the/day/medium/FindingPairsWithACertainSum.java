@@ -52,16 +52,17 @@ public class FindingPairsWithACertainSum {
         }
 
         public int count(int tot) {
-            int[] filtered = Arrays.stream(this.nums1)
-                    .map(num -> tot - num)
-                    .filter(num -> this.countMap.getOrDefault(num, 0) > 0)
-                    .toArray();
-            System.out.println(Arrays.toString(filtered));
-            return Math.toIntExact(
-                    Arrays.stream(this.nums1)
-                            .map(num -> tot - num)
-                            .filter(num -> this.countMap.getOrDefault(num, 0) > 0)
-                            .count());
+//            int[] filtered = Arrays.stream(this.nums1)
+//                    .map(num -> tot - num)
+//                    .filter(num -> this.countMap.getOrDefault(num, 0) > 0)
+//                    .toArray();
+//            System.out.println(Arrays.toString(filtered));
+//            return Math.toIntExact(
+//                    Arrays.stream(this.nums1)
+//                            .map(num -> tot - num)
+//                            .filter(num -> this.countMap.getOrDefault(num, 0) > 0)
+//                            0.count());
+            return -1;
         }
     }
 }
