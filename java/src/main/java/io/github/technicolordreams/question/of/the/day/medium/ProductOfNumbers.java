@@ -31,6 +31,7 @@ public class ProductOfNumbers {
         if (k >= size) {
             return 0; // If k is larger than available numbers (due to zero reset)
         }
-        return this.prefix.get(size - 1) / this.prefix.get(size - k - 1);
+
+        return this.prefix.getLast() / this.prefix.get(size - k - 1);
     }
 }
