@@ -50,16 +50,14 @@ public class DiagonalTraverse {
         int[] res = new int[mat.length * mat[0].length];
         int i = 0;
         for (Map.Entry<Integer, LinkedList<Map.Entry<Integer, Integer>>> entry : indexSumMap.entrySet()) {
-            if (entry.getKey() % 2 == 0) {
-                for (Map.Entry<Integer, Integer> cell : entry.getValue().reversed()) {
-                    res[i] = mat[cell.getKey()][cell.getValue()];
-                    i += 1;
-                }
-            } else {
-                for (Map.Entry<Integer, Integer> cell : entry.getValue()) {
-                    res[i] = mat[cell.getKey()][cell.getValue()];
-                    i += 1;
-                }
+            LinkedList<Map.Entry<Integer, Integer>> val =
+                    entry.getKey() % 2 == 0
+                            ? entry.getValue().reversed()
+                            : entry.getValue();
+
+            for (Map.Entry<Integer, Integer> cell : val) {
+                res[i] = mat[cell.getKey()][cell.getValue()];
+                i += 1;
             }
         }
 
