@@ -17,10 +17,6 @@ public class FindNUniqueIntegersSumUpToZero {
     }
 
     public int[] solution(int n) {
-        if (n == 1) {
-            return new int[]{0};
-        }
-
         int[] res = new int[n];
         for (int i = 0; i < Math.floorDiv(n, 2); i += 1) {
             res[i] = i + 1;
