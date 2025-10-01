@@ -25,7 +25,6 @@ public class LargestPerimeterTriangle {
 
     public int solution(int[] nums) {
         Arrays.sort(nums);
-        int res = 0;
         for (int i = nums.length - 1; i >= 2; i -= 1) {
             int iCur = nums[i];
             int jCur = nums[i - 1];
@@ -36,6 +35,6 @@ public class LargestPerimeterTriangle {
             }
         }
 
-        return res;
+        return 0;
     }
 }
