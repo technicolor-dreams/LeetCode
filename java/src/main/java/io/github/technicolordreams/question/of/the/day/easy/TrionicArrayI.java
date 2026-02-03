@@ -17,11 +17,19 @@ public class TrionicArrayI {
             i += 1;
         }
 
+        if (!inc1) {
+            return false;
+        }
+
         boolean dec = false;
         while (i < nums.length && nums[i] < prev) {
             dec = true;
             prev = nums[i];
             i += 1;
+        }
+
+        if (!dec) {
+            return false;
         }
 
         boolean inc2 = false;
@@ -31,6 +39,6 @@ public class TrionicArrayI {
             i += 1;
         }
 
-        return i == nums.length && inc1 && dec && inc2;
+        return i == nums.length && inc2;
     }
 }
