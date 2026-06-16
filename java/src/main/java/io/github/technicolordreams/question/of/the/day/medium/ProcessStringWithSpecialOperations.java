@@ -1,7 +1,5 @@
 package io.github.technicolordreams.question.of.the.day.medium;
 
-import java.util.LinkedList;
-
 public class ProcessStringWithSpecialOperations {
     public static void main(String[] args) {
         System.out.println(ProcessStringWithSpecialOperations.solution("a#b%*").equals("ba"));
